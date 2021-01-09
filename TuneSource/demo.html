@@ -1,0 +1,87 @@
+<html>
+<head>
+	<title>Bootstrap test</title>
+	<meta charset="utf-8"></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container my-3 bg-dark text-white">
+	<h1>Tune Source</h1>	
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar bg-dark navbar-light">
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link"><span class="glyphicon glyphicon-home"></span>Homepage</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link"><span class="glyphicon glyphicon-headphones"></span>Top trending songs</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link"><span class="glyphicon glyphicon"></span>Top trending artists</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link"><span class="glyphicon glyphicon-heart"></span>Liked</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link"><span class="glyphicon glyphicon-map-marker"></span>Our stores</a>
+						</li>
+						<li>
+		  					<form class="form-inline" action="/action_page.php">
+		  						<input class="form-control mr-sm-2" type="text" placeholder="What are you looking for?">
+		   						<button class="btn btn-success" type="submit">Search</button>
+		 					</form>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-sm-4">
+				<h3>Column 1</h3>
+				<p>Hello</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>Column 2</h3>
+				<p>Bonjour</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>Column 3</h3>
+				<p>Hallo</p>
+			</div>
+			<ul class="pagination">
+  				<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  				<li class="page-item"><a class="page-link" href="#">1</a></li>
+  				<li class="page-item"><a class="page-link" href="#">2</a></li>
+  				<li class="page-item"><a class="page-link" href="#">3</a></li>
+  				<li class="page-item"><a class="page-link" href="#">Next</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#my-modal">Quit</button>
+		<div class="modal fade" id="my-modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3>Do you want to quit?</h3>
+					</div>
+					<div class="modal-mid">
+						<h5>Are you sure?</h5>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">I am certainly sure</button>
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Nahh, I am not</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

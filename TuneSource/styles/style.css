@@ -1,0 +1,57 @@
+/* STYLE FOR REGISTER FORM */
+
+html, body{
+  height: 100%;
+}
+
+.wrapper{
+  min-height: 100%;
+}
+
+.container-form {
+  padding: 1px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+spin {
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  from{
+    transform-style: :rotate(0dg);
+  }
+  to{
+    transform-style: :rotate(360dg);
+  }
+}
